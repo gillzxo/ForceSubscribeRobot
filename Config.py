@@ -22,9 +22,9 @@ class Config():
 
 class Messages():
       HELP_MSG = [
-        "[Here](https://telegra.ph/file/d93d464a77d92dd3608de.jpg)",
+        ".",
 
-        "**🔔 FORCE SUBSCRIBE :**\n\nForce Group Members To Join A Specific Channel Before Sending Messages in The Group.\nI Will Mute Members if They Not Joined Your Channel And Tell Them To Join The Channel And Unmute Themself By Pressing A Button.",
+        "🔔 FORCE SUBSCRIBE [Here](https://telegra.ph/file/d93d464a77d92dd3608de.jpg)\n\nForce Group Members To Join A Specific Channel Before Sending Messages in The Group.\nI Will Mute Members if They Not Joined Your Channel And Tell Them To Join The Channel And Unmute Themself By Pressing A Button.",
         
         "**⚙ SETUP :**\n\nFirst Of All Add Me In The Group As Admin With Ban Users Permission And In The Channel As Admin.\n● Note: Only Creator Of The Group Can Setup Me.",
         
