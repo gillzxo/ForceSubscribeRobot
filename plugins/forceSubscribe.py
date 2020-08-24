@@ -69,7 +69,7 @@ def config(client, message):
                 time.sleep(1)
           sent_message.edit('✅ **🔔 UnMuted All Members Which Are Muted By Me.**')
         except ChatAdminRequired:
-          sent_message.edit('❗ **I'm Not An Admin In This Chat.**\nI Can\'t Unmute Members Because I'm Not An Admin in This Chat, Make Me.')
+          sent_message.edit('❗ **I'm Not An Admin In This Chat.**\nI Can not Unmute Members Because I'm Not An Admin in This Chat, Make Me.')
       else:
         try:
           client.get_chat_member(input_str, "me")
