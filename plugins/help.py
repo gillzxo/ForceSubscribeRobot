@@ -35,20 +35,20 @@ def help_answer(client, callback_query):
 def map(pos):
     if(pos==1):
         button = [
-            [InlineKeyboardButton(text = '-->', callback_data = "help+2")]
+            [InlineKeyboardButton(text = '➡️', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = "https://github.com/viperadnan-git/force-subscribe-telegram-bot/issues/new"
+        url = "https://t.me/HelpBdarija"
         button = [
-            [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/ViperCommunity")],
-            [InlineKeyboardButton(text = 'Feature Request & Issues', url=url)],
-            [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
+            [InlineKeyboardButton(text = 'ℹ Support Chat', url="https://t.me/DamienHelp")],
+            [InlineKeyboardButton(text = 'ℹ Channel', url=url)],
+            [InlineKeyboardButton(text = '⬅️', callback_data = f"help+{pos-1}")]
         ]
     else:
         button = [
             [
-                InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = '-->', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = '⬅️', callback_data = f"help+{pos-1}"),
+                InlineKeyboardButton(text = '➡️', callback_data = f"help+{pos+1}")
             ],
         ]
     return button
