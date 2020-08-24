@@ -24,13 +24,13 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "**Ｆｏｒｃｅ Ｓｕｂｓｃｒｉｂｅ**\n\nForce Group Members To Join A Specific Channel Before Sending Messages in The Group.\nI Will Mute Members if They Not Joined Your Channel And Tell Them To Join The Channel And Unmute Themself By Pressing A Button.",
+        "**🔔 FORCE SUBSCRIBE** <a href="https://telegra.ph/file/d93d464a77d92dd3608de.jpg">🖤</a> \n\nForce Group Members To Join A Specific Channel Before Sending Messages in The Group.\nI Will Mute Members if They Not Joined Your Channel And Tell Them To Join The Channel And Unmute Themself By Pressing A Button.",
         
-        "**⚙ Setup :**\n\nFirst Of All Add Me In The Group As Admin With Ban Users Permission And In The Channel As Admin.\nℹ Note: Only Creator Of The Group Can Setup Me.",
+        "**⚙ SETUP :**\n\nFirst Of All Add Me In The Group As Admin With Ban Users Permission And In The Channel As Admin.\n● Note: Only Creator Of The Group Can Setup Me.",
         
-        "**🛡 Commmands :**\n\n/ForceSubscribe - To Get The Current Settings.\n/ForceSubscribe no/off/disable - To Turn Of ForceSubscribe.\n/ForceSubscribe {Channel Username} - To Turn On And Setup The Channel.\n/ForceSubscribe clear - To Unmute All Members Who Muted By Me.\n\nℹ Note: /FSub Is An Alias Of /ForceSubscribe",
+        "**⚙ COMMMANDS :**\n\n/ForceSubscribe - To Get The Current Settings.\n/ForceSubscribe no/off/disable - To Turn Of ForceSubscribe.\n/ForceSubscribe {Channel Username} - To Turn On And Setup The Channel.\n/ForceSubscribe clear - To Unmute All Members Who Muted By Me.\n\n● Note: /FSub Is An Alias Of /ForceSubscribe",
         
-        "**👨‍💻 Developed By @AmineSoukara**"
+        "**👨‍💻 DEVELOPED BY @AmineSoukara**"
       ]
 
-      START_MSG = "**Hey! [{}](tg://user?id={})** 👋\n● I Can Force Members To Join A Specific Channel Before Writing Messages In The Group.\n● Learn More At 👉 /help__"
+      START_MSG = "**Hey! 👋 [{}](tg://user?id={})**\n\n● I Can Force Members To Join A Specific Channel Before Writing Messages In The Group.\n● Learn More At 👉 /help__"
