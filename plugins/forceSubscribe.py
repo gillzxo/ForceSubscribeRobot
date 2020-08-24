@@ -36,7 +36,7 @@ def SendMsg(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "ℹ [{}](tg://user?id={}), You Are **Not Subscribed** To My [Channel](https://t.me/{}) Yet. Please 👉 [Join](https://t.me/{}) And **Press The Button Below** 👇 To Unmute Yourself.".format(first_name, user_id, channel, channel),
+              "ℹ [{}](tg://user?id={}), You Are **Not Subscribed** To My [Channel](https://t.me/{}) Yet. Please 👉 [Join](https://t.me/{}) And **Press The Button Below** [👇](https://telegra.ph/file/e058c8f4a2a8355ccf4fa.jpg) To Unmute Yourself.".format(first_name, user_id, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                   [[InlineKeyboardButton("🔔 UnMute Me 🔕", callback_data="onButtonPress")]]
@@ -67,7 +67,7 @@ def config(client, message):
             if chat_member.restricted_by.id == (client.get_me()).id:
                 client.unban_chat_member(chat_id, chat_member.user.id)
                 time.sleep(1)
-          sent_message.edit('✅ **🔔 UnMuted All Members Which Are Muted By Me.**')
+          sent_message.edit('✅ **UnMuted All Members Which Are Muted By Me.**')
         except ChatAdminRequired:
           sent_message.edit('❗ **I Am Not An Admin In This Chat.**\nI Can not Unmute Members Because I Am Not An Admin in This Chat, Make Me.')
       else:
