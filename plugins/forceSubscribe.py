@@ -37,7 +37,7 @@ def SendMsg(client, message):
         try:
           sent_message = message.reply_text(
               "ℹ [{}](tg://user?id={}), You Are **Not Subscribed** To My [Channel](https://t.me/{}) Yet. Please 👉 [Join](https://t.me/{}) And **Press The Button Below** [👇](https://telegra.ph/file/e058c8f4a2a8355ccf4fa.jpg) To Unmute Yourself.".format(first_name, user_id, channel, channel),
-              disable_web_page_preview=True,
+              disable_web_page_preview=False,
               reply_markup=InlineKeyboardMarkup(
                   [[InlineKeyboardButton("🔔 UnMute Me 🔕", callback_data="onButtonPress")]]
               )
