@@ -8,7 +8,7 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "").split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(853393439)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = "813720171:AAFD9Xz2FwGmReornUEt29UvbuAlhtufci4"
@@ -16,7 +16,7 @@ class Config():
     APP_ID = "1266744"
     API_HASH = "f0db5ee8d1d0ec0ba1c288d11455529d"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(853393439)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -24,13 +24,13 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "**Force Subscribe**\n__Force group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
+        "**Ｆｏｒｃｅ Ｓｕｂｓｃｒｉｂｅ**\n\nForce Group Members To Join A Specific Channel Before Sending Messages in The Group.\nI Will Mute Members if They Not Joined Your Channel And Tell Them To Join The Channel And Unmute Themself By Pressing A Button.",
         
-        "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me.__",
+        "**⚙ Setup :**\n\nFirst Of All Add Me In The Group As Admin With Ban Users Permission And In The Channel As Admin.\nℹ Note: Only Creator Of The Group Can Setup Me.",
         
-        "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
+        "**🛡 Commmands :**\n\n/ForceSubscribe - To Get The Current Settings.\n/ForceSubscribe no/off/disable - To Turn Of ForceSubscribe.\n/ForceSubscribe {Channel Username} - To Turn On And Setup The Channel.\n/ForceSubscribe clear - To Unmute All Members Who Muted By Me.\n\nℹ Note: /FSub Is An Alias Of /ForceSubscribe",
         
-        "**Developed by @viperadnan**"
+        "**👨‍💻 Developed By @AmineSoukara**"
       ]
 
-      START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
+      START_MSG = "**Hey! [{}](tg://user?id={})** 👋\n● I Can Force Members To Join A Specific Channel Before Writing Messages In The Group.\n● Learn More At 👉 /help__"
