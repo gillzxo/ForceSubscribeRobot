@@ -36,5 +36,4 @@ python3 bot.py
 ```
 
 ## Thanks To :
-- [PyroGram](https://PyroGram.org)
-- [Hasibul Kabir](https://GitHub.com/hasibulkabir) & [Spechide](https://GitHub.com/spechide) And [Adnan Ahmad](https://github.com/viperadnan-git)
+- [PyroGram](https://PyroGram.org) & [Hasibul Kabir](https://GitHub.com/hasibulkabir) & [Spechide](https://GitHub.com/spechide) And [Adnan Ahmad](https://github.com/viperadnan-git)
