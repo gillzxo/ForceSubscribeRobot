@@ -6,9 +6,9 @@
     "eaglescout",
     "forcesub"
   ],
-  "repository": "https://github.com/AmineSoukara/ForceSubscribe",
-  "success_url": "https://github.com/AmineSoukara/ForceSubscribe",
-  "website": "https://github.com/AmineSoukara/ForceSubscribe",  
+  "repository": "https://github.com/AmineSoukara/ForceSubscribeRobot",
+  "success_url": "https://github.com/AmineSoukara/ForceSubscribeRobot",
+  "website": "https://github.com/AmineSoukara/ForceSubscribeRobot",  
   "addons": [],
   "buildpacks": [],
   "formation": {
