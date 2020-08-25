@@ -1,0 +1,20 @@
+{
+  "name": "Forcesub",
+  "description": "This is a telegram bot writen in python for managing group/channel.",
+  "keywords": [
+    "telegram",
+    "eaglescout",
+    "forcesub"
+  ],
+  "repository": "https://github.com/AmineSoukara/ForceSubscribe",
+  "success_url": "https://github.com/AmineSoukara/ForceSubscribe",
+  "website": "https://github.com/AmineSoukara/ForceSubscribe",  
+  "addons": [],
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }  
+}
